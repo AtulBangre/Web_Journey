@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <form>
+        <fieldset>
+            <legend>Name</legend>
+            <Table>
+                <tr>
+                    <Td><label type="te">Name:</label></Td>
+                    <Td><input type="text" name="Name" value="Name"><br></Td>
+                </tr>
+                <tr>
+                    <td><label type="te">Last Name:</label></td>
+                    <td><input type="text" name="Last Name" value="Last Name"></td>
+                </tr>
+            </Table>          
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <table>
+                <tr>
+                    <td><p>Choose a Drink: </p></td>
+                    <td><label for="Coffee"> <input type="radio" id="Coffee" name="Drink" value="Coffee"> Coffee</label><br>
+                        <label for="Hot Chocolate"> <input type="radio" id="Hot Chocolate" name="Drink" value="Hot Chocolate"> Hot Chocolate</label><br>
+                        <label for="Tea"> <input type="radio" id="Tea" name="Drink" value="Coffee"> Tea</label><hr>
+                </tr>
+                <tr>
+                    <td><p>Choose a dinner Type: </p></td>
+                    <td><label for="1"> <input type="checkbox" id="1" name="Nashta" value="Nashta"> Nashta</label><br>
+                        <label for="2"> <input type="checkbox" id="2" name="Khana" value="Khana"> Khana</label><br>
+                        <label for="3"> <input type="checkbox" id="3" name="Dinner" value="Dinner"> Tea</label>
+                </tr>
+        
+            </table>
+
+            <label for="card">
+                <span>Card type:</span>
+              </label>
+              <select id="card" name="usercard">
+                <option value="visa">Visa</option>
+                <option value="mc">Mastercard</option>
+                <option value="amex">American Express</option>
+              </select>
+        </fieldset>
+        <br>
+        <input type="button" name="SubMitte" value="SubMitte">
+    </form>
+    
+</body>
+</html>
