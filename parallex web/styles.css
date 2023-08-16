@@ -31,3 +31,19 @@
     z-index: -1;
     object-fit: cover;
 }
+h1{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 9rem;
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+section{
+    background-color: black;
+    color: white;
+}
+text{
+    padding: 20px;
+    margin: 20px;
+}
