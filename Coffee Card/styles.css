@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 36);
+    min-height: 100vh;
+}
+
+.card{
+    width: 600px;
+    min-height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+}
+.card:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+
+}
+.content{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.content img{
+    width: 100%;
+}
+.data{
+    box-sizing: border-box;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px;
+}
+#shead{
+    font-family: IOptima, sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+}
+p{
+    font-family: IOptima, sans-serif;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+}
+h2{
+    font-family: 'DM Serif Text', serif;
+/* font-family: 'Quattrocento', serif; */
+    line-height: 1;
+    font-weight: bold;
+    font-size: 30px;
+}
+.price{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;   
+}
+#not{
+    margin-left: 7px;
+}
+.button{
+    background-color: rgb(0, 131, 39);
+    height: 35px;
+    width: 100%;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: IOptima, sans-serif;
+    
+}
+#cart{
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+}
+.button:hover{
+    box-shadow: 0px 0px 20px rgba(63, 63, 63, 0.4);
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        flex-direction: column;
+        margin: 0 15px
+    }
+}
